@@ -5,8 +5,11 @@ Using an external spelling correction program in conjunction with Solr and to en
 **Regarding files**
 
  *index.php* : Main file aggregated with all logic
+ 
  *TikaParser.java* : Parser written to extract data from HTML document files which generates big.txt
+ 
  *SpellCorrector.php* : Norvig's spell correction algorithm in which the input file is big.txt, generated from our document set
+ 
  *simple_html_dom.php* : File used in generating snippites from the description of documents based on keywords.
 
  **Prerequisites**
