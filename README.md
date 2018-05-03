@@ -1,8 +1,8 @@
-** Goal **
+**Goal**
 
 Using an external spelling correction program in conjunction with Solr and to enhance the autocomplete functionality of Solr. Final outcome is a web based search engine used to extract the required queried document which were indexed on solr core.
 
-** Regarding files **
+**Regarding files**
 
  *index.php* : Main file aggregated with all logic
  *TikaParser.java* : Parser written to extract data from HTML document files which generates big.txt
